@@ -1,0 +1,114 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: rgba(199, 200, 198, 0.49);
+	border-bottom: 	1px solid grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.name {
+  display: inline-block;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+.name h1 {
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.top-link {
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font-size: 17px;
+	padding: 0 8px;
+}
+
+
+.search-bar{
+	/*position: relative;*/
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	width: 400px;
+	border: 1px grey;
+}
+.search-bar input#search{
+	width: 400px;
+	height: 30px;
+	font-size: 12pt;
+	float: left;
+	color: #63717f;
+	padding-left: 10px;
+}
+
+
+button{
+	position: relative;
+	left: 395px;
+	bottom:30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.fa{
+	font-size: 21px;
+}
+
+.pages {
+  display: inline-block; 
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  margin-left: 80px;
+}
+
+.pages-side {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.posts {
+  padding: 0;
+  margin-left: 80px;
+}
+
+.post {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.post-date ,
+.post-location {
+  color: lightgrey;
+}
+
+.post-content {
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.pages-middle {
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
